@@ -11,7 +11,9 @@ def fatorial(n):
         return n * fatorial(n - 1)
 
 numero_aleatorio = random.randint(1, 100)
+
 print("Número aleatório:", numero_aleatorio)
 
 resultado = fatorial(numero_aleatorio)
+
 print(f'O fatorial de {numero_aleatorio} é {resultado}')
